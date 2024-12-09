@@ -1,7 +1,7 @@
-let distance = prompt(`Quanti Km vuoi percorrere?`);
-let age = prompt(`Quanti anni hai?`);
+const distance = prompt(`Quanti Km vuoi percorrere?`);
+const age = prompt(`Quanti anni hai?`);
 
-let ticket = 0.21 * distance;
+const ticket = 0.21 * distance;
 
 if(isNaN(distance) || isNaN(age)){
     console.log(`Inserisci un numero valido, ricarica la pagina`)
@@ -18,8 +18,3 @@ if(isNaN(distance) || isNaN(age)){
     
 }
 }
-
-
-
-
-
